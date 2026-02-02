@@ -26,7 +26,9 @@
       place-items: center;
       background: radial-gradient(circle at top, var(--bg2), var(--bg1));
       font-family: system-ui, sans-serif;
-      overflow: hidden;
+      overflow-y: auto;
+      overflow-x: hidden; 
+      -webkit-overflow-scrolling: touch;
       padding: 16px;
     }
 
@@ -147,8 +149,8 @@
     </section>
 
     <!-- HINT -->
-    <div class="hint" id="hint">No?\n
-      Really?\n
+    <div class="hint" id="hint">No?<br>
+      Really?<br>
       You gonna do that to us ?</div>
 
     <section class="result" id="result">
